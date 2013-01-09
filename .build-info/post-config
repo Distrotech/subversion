@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ "${1}" == "${NARCH}" ] && [ ! -e /usr/${B_LIBDIRS}/libsvn_client-1.so ];then
+  rm /usr/${B_LIBDIRS}/libsvn*.a /usr/${B_LIBDIRS}/libsvn*.la 2>/dev/null
+fi;
