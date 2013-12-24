@@ -4,4 +4,4 @@ if [ ! -d ${3}/usr/lib/python2.7/site-packages ];then
   mkdir -p ${3}/usr/lib/python2.7/site-packages
 fi;
 
-rsync -a ${3}/usr/${C_LIBDIRS}/svn-python ${3}/usr/lib/python2.7/site-packages/
+rsync -a ${3}/usr/${C_LIBDIRS}/svn-python/ ${3}/usr/lib/python2.7/site-packages/
